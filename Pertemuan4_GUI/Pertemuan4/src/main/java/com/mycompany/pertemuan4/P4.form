@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel6" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="230" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane2" alignment="1" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="dAlamat" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="dNama" min="-2" pref="357" max="-2" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Component id="Proses" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="Hapus" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="dNim" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="dJK" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="dUmur" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="dHobi" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="299" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dNama" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dNim" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dJK" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dUmur" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dHobi" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dAlamat" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Proses" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Hapus" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nama:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jenis Kelamin (L/P):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alamat:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dNama">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dNamaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Proses">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Proses"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ProsesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BIODATA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="dJK">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="L"/>
+            <StringItem index="1" value="P"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dJKActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="Hapus">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hapus"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HapusActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="dHasil">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="dAlamat">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dAlamatActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Umur:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="dUmur">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="117">
+            <StringItem index="0" value="1 Tahun"/>
+            <StringItem index="1" value="2 Tahun"/>
+            <StringItem index="2" value="3 Tahun"/>
+            <StringItem index="3" value="4 Tahun"/>
+            <StringItem index="4" value="5 Tahun"/>
+            <StringItem index="5" value="6 Tahun"/>
+            <StringItem index="6" value="7 Tahun"/>
+            <StringItem index="7" value="8 Tahun"/>
+            <StringItem index="8" value="9 Tahun"/>
+            <StringItem index="9" value="10 Tahun"/>
+            <StringItem index="10" value="11 Tahun"/>
+            <StringItem index="11" value="12 Tahun"/>
+            <StringItem index="12" value="13 Tahun"/>
+            <StringItem index="13" value="14 Tahun"/>
+            <StringItem index="14" value="15 Tahun"/>
+            <StringItem index="15" value="16 Tahun"/>
+            <StringItem index="16" value="17 Tahun"/>
+            <StringItem index="17" value="18 Tahun"/>
+            <StringItem index="18" value="19 Tahun"/>
+            <StringItem index="19" value="20 Tahun"/>
+            <StringItem index="20" value="21 Tahun"/>
+            <StringItem index="21" value="22 Tahun"/>
+            <StringItem index="22" value="23 Tahun"/>
+            <StringItem index="23" value="24 Tahun"/>
+            <StringItem index="24" value="25 Tahun"/>
+            <StringItem index="25" value="26 Tahun"/>
+            <StringItem index="26" value="27 Tahun"/>
+            <StringItem index="27" value="28 Tahun"/>
+            <StringItem index="28" value="29 Tahun"/>
+            <StringItem index="29" value="30 Tahun"/>
+            <StringItem index="30" value="31 Tahun"/>
+            <StringItem index="31" value="32 Tahun"/>
+            <StringItem index="32" value="33 Tahun"/>
+            <StringItem index="33" value="34 Tahun"/>
+            <StringItem index="34" value="35 Tahun"/>
+            <StringItem index="35" value="36 Tahun"/>
+            <StringItem index="36" value="37 Tahun"/>
+            <StringItem index="37" value="38 Tahun"/>
+            <StringItem index="38" value="39 Tahun"/>
+            <StringItem index="39" value="40 Tahun"/>
+            <StringItem index="40" value="41 Tahun"/>
+            <StringItem index="41" value="42 Tahun"/>
+            <StringItem index="42" value="43 Tahun"/>
+            <StringItem index="43" value="44 Tahun"/>
+            <StringItem index="44" value="45 Tahun"/>
+            <StringItem index="45" value="46 Tahun"/>
+            <StringItem index="46" value="47 Tahun"/>
+            <StringItem index="47" value="48 Tahun"/>
+            <StringItem index="48" value="49 Tahun"/>
+            <StringItem index="49" value="50 Tahun"/>
+            <StringItem index="50" value="51 Tahun"/>
+            <StringItem index="51" value="52 Tahun"/>
+            <StringItem index="52" value="53 Tahun"/>
+            <StringItem index="53" value="54 Tahun"/>
+            <StringItem index="54" value="55 Tahun"/>
+            <StringItem index="55" value="56 Tahun"/>
+            <StringItem index="56" value="57 Tahun"/>
+            <StringItem index="57" value="58 Tahun"/>
+            <StringItem index="58" value="59 Tahun"/>
+            <StringItem index="59" value="60 Tahun"/>
+            <StringItem index="60" value="61 Tahun"/>
+            <StringItem index="61" value="62 Tahun"/>
+            <StringItem index="62" value="63 Tahun"/>
+            <StringItem index="63" value="64 Tahun"/>
+            <StringItem index="64" value="65 Tahun"/>
+            <StringItem index="65" value="66 Tahun"/>
+            <StringItem index="66" value="67 Tahun"/>
+            <StringItem index="67" value="68 Tahun"/>
+            <StringItem index="68" value="69 Tahun"/>
+            <StringItem index="69" value="70 Tahun"/>
+            <StringItem index="70" value="71 Tahun"/>
+            <StringItem index="71" value="72 Tahun"/>
+            <StringItem index="72" value="73 Tahun"/>
+            <StringItem index="73" value="74 Tahun"/>
+            <StringItem index="74" value="75 Tahun"/>
+            <StringItem index="75" value="76 Tahun"/>
+            <StringItem index="76" value="77 Tahun"/>
+            <StringItem index="77" value="78 Tahun"/>
+            <StringItem index="78" value="79 Tahun"/>
+            <StringItem index="79" value="80 Tahun"/>
+            <StringItem index="80" value="81 Tahun"/>
+            <StringItem index="81" value="82 Tahun"/>
+            <StringItem index="82" value="83 Tahun"/>
+            <StringItem index="83" value="84 Tahun"/>
+            <StringItem index="84" value="85 Tahun"/>
+            <StringItem index="85" value="86 Tahun"/>
+            <StringItem index="86" value="87 Tahun"/>
+            <StringItem index="87" value="88 Tahun"/>
+            <StringItem index="88" value="89 Tahun"/>
+            <StringItem index="89" value="90 Tahun"/>
+            <StringItem index="90" value="91 Tahun"/>
+            <StringItem index="91" value="92 Tahun"/>
+            <StringItem index="92" value="93 Tahun"/>
+            <StringItem index="93" value="94 Tahun"/>
+            <StringItem index="94" value="95 Tahun"/>
+            <StringItem index="95" value="96 Tahun"/>
+            <StringItem index="96" value="97 Tahun"/>
+            <StringItem index="97" value="98 Tahun"/>
+            <StringItem index="98" value="99 Tahun"/>
+            <StringItem index="99" value="100 Tahun"/>
+            <StringItem index="100" value="101 Tahun"/>
+            <StringItem index="101" value="102 Tahun"/>
+            <StringItem index="102" value="103 Tahun"/>
+            <StringItem index="103" value="104 Tahun"/>
+            <StringItem index="104" value="105 Tahun"/>
+            <StringItem index="105" value="106 Tahun"/>
+            <StringItem index="106" value="107 Tahun"/>
+            <StringItem index="107" value="108 Tahun"/>
+            <StringItem index="108" value="109 Tahun"/>
+            <StringItem index="109" value="110 Tahun"/>
+            <StringItem index="110" value="111 Tahun"/>
+            <StringItem index="111" value="112 Tahun"/>
+            <StringItem index="112" value="113 Tahun"/>
+            <StringItem index="113" value="114 Tahun"/>
+            <StringItem index="114" value="115 Tahun"/>
+            <StringItem index="115" value="116 Tahun"/>
+            <StringItem index="116" value="Lebih dari 116 Tahun"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dUmurActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="C:\Users\D\Downloads\channels4_profile.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nim:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dNim">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dNimActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Hobi:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dHobi">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="dHobiActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
